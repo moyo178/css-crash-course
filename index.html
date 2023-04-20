@@ -1,56 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>my website</title>
+	<title>CSS Cheat SHEET</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<header id="main-header">
 	<div class="container">
-	<h1>MY WEBSITE</h1>
+	<div class="box-1">
+<h1>hello world </h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
-</header>
+</div>
 
-<nav id="navbar">
-	<div class="container">
+<div class="box-2">
+<h1>Goodbye world</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiant nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<a class="button" href="">Read more</a>
+</div>
+
+<div class="categories">
+	<h2>Categories</h2>
 	<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Services</a></li>
-		<li><a href="#">Contact</a></li>
+		<li><a href="#">category 1</li>
+			<li><a href="#">category 2</a></li>
+			<li><a href="#">category 3</a></li>
+			<li><a href="#">category 4</a></li>
 	</ul>
-</div>
-</nav>
+	</div>
+<!-- ./container -->
 
-	<section id="showcase">
-		<div class="container">
-			<h1>Story LINE</h1>
-		</div>
-	</section>
-	<section id="main">
-		<h1>hello</h1>
+<form class="my-form">                           
+	<div class="form-group">
+		<label>Name: </label>
+		<input type="text" name="name">
+	</div>
+	<div class="form-group">
+		<label>email: </label>
+		<input type="text" name="email">
+	</div>
+
+	<input class="button" type="submit" value="submit" name=" ">
+
+	</form>
+	<div class="">
+		<h3>heading</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+	</div>
+<div class="block">
+		<h3>heading</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+	</div>
+	<div class="block">
+		<h3>heading</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+	</div>
+	<div id ="sidebar">
+		<h3>heading</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</section>
-	<div class="container">
-	<aside id="sidebar">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-		quis nostrud
-	</aside>
-<aside id="sidebar">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud.
-	</aside>
-</div>
+	</div>
 
-<footer id="main-footer">
-	<p>copyright &2017; 2017 my website</p>
-</footer>
+ 	<div class="clr"></div>
+
+ 	<div class="p-box">
+ 		<h1>Hello</h1>
+ 		<h2>goodbye</h2>
+ 	</div>
+ 		
+ 		<ul class="my-list">
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 			<li>list item</li>
+ 		</ul>
+ 	</div>
+ 	
+ 	<div id="sidebar"></div>
+</div><!-- ./container -->
+
+	<button class="fix-me button" onclick="go('faridat')">hello</button>
+<div style="margin-top:500px;"></div>
+
+<!-- <div class="test-div">
+	<span style="font-size: 30px;">
+		HI there
+	</span>
+	
+</div> -->
+
+<div style="height: 200px;">
+	
+</div>
 </body>
+
+<script type="text/javascript">
+	function go(name){
+		alert("My name is " + name)
+		var ca = document.getElementsByTagName("li")
+		ca.innerHTML("We have all changed")
+	}
+</script>
 </html>
+ 
